@@ -6,8 +6,8 @@ This is a simple Visual Studio Code extension that replaces double quotes contai
 
 Features
 
-- `	`Replaces double and single quotes containing the pattern ${...} with backticks.
-- `	`Activates whenever a text document in the workspace is changed.
+- ` `Replaces double and single quotes containing the pattern ${...} with backticks.
+- ` `Activates whenever a text document in the workspace is changed.
 
 Installation
 
