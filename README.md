@@ -27,7 +27,7 @@ Extension Development
 
 If you want to modify or enhance this extension, follow the steps below:
 
-1. ` `Clone the repository from GitHub: ${ https://github.com/souravion/Convert-String-to-Literals/tree/master}
+1. ` `Clone the repository from GitHub: https://github.com/souravion/Convert-String-to-Literals/tree/master
 2. ` `Navigate to the cloned repository's folder.
 3. ` `Run npm install to install the required dependencies.
 4. ` `Open the repository folder in Visual Studio Code.
@@ -38,7 +38,7 @@ If you want to modify or enhance this extension, follow the steps below:
 
 Contributions
 
-Contributions to this project are welcome. If you find any issues or want to suggest improvements, please open an issue on the GitHub repository: ${ https://github.com/souravion/Convert-String-to-Literals}/issues.
+Contributions to this project are welcome. If you find any issues or want to suggest improvements, please open an issue on the GitHub repository: https://github.com/souravion/Convert-String-to-Literals}/issues.
 
 Contact
 
