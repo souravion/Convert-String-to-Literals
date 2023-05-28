@@ -5,8 +5,8 @@ export function activate(context: vscode.ExtensionContext) {
     
     let disposable = vscode.workspace.onDidChangeTextDocument((event) => {
         const configuration = vscode.workspace.getConfiguration();
-        const enabled = configuration.get<boolean>("template-string-converter.enabled");
-        const validLanguages = configuration.get<string[]>("template-string-converter.validLanguages");
+        const enabled = configuration.get<boolean>("converting-strings-to-template-literals.enabled");
+        const validLanguages = configuration.get<string[]>("converting-strings-to-template-literals.validLanguages");
         const { document, contentChanges } = event;
         if (enabled && validLanguages?.includes(document.languageId)){
             try{

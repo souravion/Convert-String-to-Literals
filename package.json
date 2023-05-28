@@ -1,8 +1,8 @@
 {
-  "name": "template-literals-converter",
-  "displayName": "Convert String to Literals",
+  "name": "converting-strings-to-template-literals",
+  "displayName": "Converting Strings to Template Literals",
   "description": "Convert a String to a Template Literals when type ${}",
-  "version": "1.0.3", 
+  "version": "1.0.4", 
   "publisher": "Souravhalder",
   "icon": "images/icon.png",
   "engines": {
@@ -21,7 +21,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "template-literals-converter.templateStringConverter",
+        "command": "converting-strings-to-template-literals.templateStringConverter",
         "title": "Convert Template String"
       }
     ],
@@ -29,12 +29,12 @@
       {
         "title": "Convert a string to a template string",
         "properties": {
-          "template-string-converter.enabled": {
+          "converting-strings-to-template-literals.enabled": {
             "type": "boolean",
             "description": "extension is enabled",
             "default": true
           },
-          "template-string-converter.validLanguages": {
+          "converting-strings-to-template-literals.validLanguages": {
             "type": "array",
             "items": {
               "type": "string"

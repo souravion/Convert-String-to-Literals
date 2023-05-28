@@ -6,8 +6,8 @@ function activate(context) {
     let lastReplacedLine;
     let disposable = vscode.workspace.onDidChangeTextDocument((event) => {
         const configuration = vscode.workspace.getConfiguration();
-        const enabled = configuration.get("template-string-converter.enabled");
-        const validLanguages = configuration.get("template-string-converter.validLanguages");
+        const enabled = configuration.get("converting-strings-to-template-literals.enabled");
+        const validLanguages = configuration.get("converting-strings-to-template-literals.validLanguages");
         const { document, contentChanges } = event;
         if (enabled && validLanguages?.includes(document.languageId)) {
             try {
