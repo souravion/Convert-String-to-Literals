@@ -2,7 +2,7 @@
   "name": "template-literals-converter",
   "displayName": "Convert String to Literals",
   "description": "Convert a String to a Template Literals when type ${}",
-  "version": "1.0.2", 
+  "version": "1.0.3", 
   "publisher": "Souravhalder",
   "icon": "images/icon.png",
   "engines": {
