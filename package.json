@@ -2,7 +2,7 @@
   "name": "template-literals-converter",
   "displayName": "Convert String to Literals",
   "description": "Convert a String to a Template Literals when type ${}",
-  "version": "1.0.1", 
+  "version": "1.0.2", 
   "publisher": "Souravhalder",
   "icon": "images/icon.png",
   "engines": {
@@ -85,7 +85,7 @@
     "autocorrect"
   ],
   "galleryBanner": {
-    "color": "#a8a2a5",
+    "color": "#38B6FF",
     "theme": "dark"
   },
 
