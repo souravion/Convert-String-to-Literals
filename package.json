@@ -2,14 +2,14 @@
   "name": "template-literals-converter",
   "displayName": "Convert String to Literals",
   "description": "Convert a String to a Template Literals when type ${}",
-  "version": "1.0.0", 
+  "version": "1.0.1", 
+  "publisher": "Souravhalder",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.78.0"
   },
   "categories": [
     "Formatters"
-    
-
   ],
   
   "activationEvents": [
@@ -72,5 +72,29 @@
     "mocha": "^10.2.0",
     "typescript": "^5.0.4",
     "@vscode/test-electron": "^2.3.0"
-  }
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "template",
+    "string",
+    "converter",
+    "auto",
+    "embed",
+    "embedder",
+    "autocorrect"
+  ],
+  "galleryBanner": {
+    "color": "#a8a2a5",
+    "theme": "dark"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/souravion/Convert-String-to-Literals"
+  },
+  "bugs": {
+    "url": "https://github.com/souravion/Convert-String-to-Literals/issues"
+  },
+  "license": "MIT"
 }
