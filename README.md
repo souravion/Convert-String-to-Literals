@@ -10,8 +10,8 @@ The Converting Strings to Template Literals extension provides functionality to 
 
 | Name                                      | Description                                                              | Default Value                                                    |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------- |
-| `template-string-converter.enable`        | Enable the extension on/off                                            | `true`                                                           |
-| `template-string-converter.validLanguages` | Languages the extension should apply to                                  | `typescript, javascript, vue`                                               |
+| `converting-strings-to-template-literals.enable`        | Enable the extension on/off                                            | `true`                                                           |
+| `converting-strings-to-template-literals.validLanguages` | Languages the extension should apply to                                  | `typescript, javascript, vue`                                               |
                                                        |
 
 You can modify these settings in the VS Code settings to customize the behavior of the Template String Converter extension according to your requirements.
