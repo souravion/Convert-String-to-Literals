@@ -26,6 +26,15 @@ export function activate(context: vscode.ExtensionContext) {
                         });
                         lastReplacedLine = undefined; // Reset lastReplacedLine
                     }
+                } else if (!line.text.includes("${") && line.text.includes("`") && startPosition.line !== lastReplacedLine) {
+                    const restoredText = line.text.replace(/`([^`]*)`/g, '"$1"');
+                    if (restoredText !== line.text) {
+                        const range = new vscode.Range(startPosition.line, 0, startPosition.line, line.text.length);
+                        editor.edit((editBuilder) => {
+                            editBuilder.replace(range, restoredText);
+                        });
+                        lastReplacedLine = undefined;
+                    }
                 }
             });
         }
